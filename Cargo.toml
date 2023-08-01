@@ -1,0 +1,12 @@
+[package]
+name = "ws_tester"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+tungstenite = {version ="0.20.0",features = ["native-tls"]}
+url = "2.4.0"
+log = "0.4.14"
+env_logger = "0.10.0"
